@@ -1,0 +1,19 @@
+@media screen and (min-width: 992px) {
+  /* XỬ LÝ NAV-BAR */
+
+  #nav-bar .container {
+    display: grid;
+    grid-template-columns: 120px 120px 150px 120px 120px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* JOB-INFO ==========*/
+
+  /* #job-info .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    justify-content: center;
+  } */
+}

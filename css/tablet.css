@@ -1,0 +1,40 @@
+@media screen and (max-width: 991.98px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  /* HIDE PERSONAL AVARTAR */
+  .avt img {
+    visibility: hidden;
+  }
+  .avt {
+    width: 20px;
+    height: 0;
+  }
+
+  /* NAV-BAR =============== */
+  #nav-bar .container {
+    display: grid;
+    grid-template-columns: 120px 120px auto 120px 120px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* JOBS INFO ================ */
+  /* #job-info .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    justify-content: center;
+  } */
+
+  /* CERTIFICATION ========= */
+
+  .cd3 div {
+    width: 50%;
+  }
+
+  .certf-details img {
+    width: 90%;
+  }
+}

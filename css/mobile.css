@@ -1,0 +1,125 @@
+@media screen and (max-width: 767.98px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  /* HIDE PERSONAL AVARTAR */
+  .avt img {
+    visibility: hidden;
+  }
+  .avt {
+    width: 20px;
+    height: 0;
+  }
+
+  /* NAV-BAR ============*/
+  #nav-bar .container {
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: start;
+  }
+
+  .nav-item {
+    text-align: left;
+    border: none;
+    padding: 5px 30px;
+    font-size: 14px;
+  }
+
+  #nav-bar a:hover {
+    color: #0079bc;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  /* about ========================*/
+  /* #about .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  } */
+  #target p {
+    padding-bottom: 50px;
+  }
+  #target {
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #personal-info {
+    padding-left: 30px;
+    padding-bottom: 30px;
+    background-color: #f2f2f2;
+  }
+
+  /* JOBS INFO ================*/
+  /* #job-info .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+    justify-content: center;
+  } */
+
+  .job-items {
+    font-size: 14px;
+    padding: 40px 20px;
+    justify-items: center;
+    align-content: start;
+  }
+
+  .skill p {
+    font-size: 14px;
+  }
+
+  /* CHỨNG CHỈ - GIẢI THƯỞNG */
+
+  .certf-items {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    font-size: 14px;
+    gap: 10px;
+    border: none;
+  }
+
+  .cd3 div {
+    width: 100%;
+  }
+
+  .cd1,
+  .cd2,
+  .cd3 {
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-bottom: 1px solid #d6c08d;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .certf-details img {
+    width: 95%;
+  }
+
+  /* DỰ ÁN */
+  .prj-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-content: center;
+    padding: 0px 20px;
+  }
+
+  /* FOOTER */
+  #footer ul {
+    padding-left: 0px;
+  }
+  #footer li {
+    padding: 5px;
+  }
+  #footer span {
+    font-size: 38px;
+    margin: 0;
+  }
+}
